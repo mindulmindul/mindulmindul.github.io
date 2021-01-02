@@ -1,0 +1,12 @@
+I"�<h1 id="简介">简介</h1>
+<p>王小多，天津师范大学计算机系毕业，目前在家待业。最近正在写关于Linux内核的博客，主要分为硬件部分Arch
+和软件部分Kernel和要用到的工具Tool。</p>
+
+<p><strong>硬件部分</strong>主要内容包括x86处理器的<strong>内存管理</strong>机制和<strong>中断与异常</strong>机制，以及Linux内核如何使不同平台透
+明化，为上层提供一个统一的Adapter。</p>
+
+<p><strong>软件部分</strong>包括进程调度，内存管理，驱动程序接口等与硬件平台无关的内容。</p>
+
+<p><strong>Tool</strong>主要包括GCC、Make、GDB、QEMU、wsl、Source Insight等的使用方法。</p>
+
+:ET

@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+---
+layout: default
+title: Home
+premlink: /
+---
+# 简介
+王小多，天津师范大学计算机系毕业，目前在家待业。最近正在写关于Linux内核的博客，主要分为硬件部分Arch
+和软件部分Kernel和要用到的工具Tool。
 
-You can use the [editor on GitHub](https://github.com/mindulmindul/mindulmindul.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+**硬件部分**主要内容包括x86处理器的**内存管理**机制和**中断与异常**机制，以及Linux内核如何使不同平台透
+明化，为上层提供一个统一的Adapter。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**软件部分**包括进程调度，内存管理，驱动程序接口等与硬件平台无关的内容。
 
-### Markdown
+**Tool**主要包括GCC、Make、GDB、QEMU、wsl、Source Insight等的使用方法。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mindulmindul/mindulmindul.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
