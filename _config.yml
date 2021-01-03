@@ -37,6 +37,8 @@ nav:
     link: /kernel/
   - name: Tool
     link: /tools/
+  - name: leetcode
+    link: /leetcode/primary_algorithm
   - name: View on Github
     link: https://github.com/mindulmindul/mindulmindul.github.io
 
