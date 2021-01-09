@@ -10,11 +10,11 @@ html {
 body {
     padding:50px 0;
     margin:0;
-    font-family: "Microsoft YaHei UI", Helvetica, ;
+    font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
     font-size:14px;
-    color:#555;
+    color:#333333;
     //font-weight:350;
-    background:url('../images/checker.png') fixed;
+    background:url('/assets/images/checker.png') fixed;
     min-height: calc(100% - 100px);
 }
 
@@ -204,7 +204,7 @@ h3, h4, h5, h6 {
 blockquote {
     margin:0 -20px 20px;
     padding:15px 20px 1px 40px;
-    font-style:italic;
+    font-size:13px;
     background:#ccc;
     background:rgba(#000, 0.06);
     color:#222;
@@ -214,11 +214,18 @@ img {
     max-width:100%;
 }
 
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("/assets/fonts/JM/JetBrains Mono Regular Nerd Font Complete.ttf");
+}
+
 code, pre {
-    font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+    font-family: "JetBrains Mono";
     color:#333;
-    font-size:12px;
+    font-size:14px;
+    line-height: 16px;
     overflow-x:auto;
+    background-color: transparent;
 }
 
 pre {
