@@ -2,28 +2,29 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700');
 
 html {
-    background:#6C7989;
-    background: #6C7989 linear_gradient(#6C7989, #434B55) fixed;
     height: 100%;
+    background-color: #f6f8fa;
 }
 
 body {
-    padding:50px 0;
     margin:0;
-    font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
-    font-size:14px;
-    color:#333333;
-    //font-weight:350;
-    background:url('/assets/images/checker.png') fixed;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size:22px;
+    line-height: 1.5;
+    color:#24292e;
     min-height: calc(100% - 100px);
 }
 
-.wrapper {
-    width:740px;
+main{
+    width:1000px;
     margin:0 auto;
-    background:#DEDEDE;
-    border-radius: 8px;
-    box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
+    background:#ffffff;
+    border-radius: 5px;
+    border: #e1e4e8 solid 1px;
+    padding: 40px;
+    //box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size:20px;
 }
 
 header, section, footer {
@@ -116,28 +117,6 @@ ul {
      box-shadow: rgba(#000, 0.2) 0 -1px 0, inset rgba(#fff, 0.7) 0 -1px 0;
  }
 
-li {
-    width:max-content;
-    float:left;
-    border-right:1px solid #3A7CBE;
-    border-radius: 5px;
-    height:25px;
-
-
-&.single {
-     border:none;
- }
-}
-
-li + li {
-    width:max-content;
-    border-left:1px solid #8BBEF3;
-}
-
-li + li + li {
-    border-right:none;
-    width:max-content;
-}
 
 a {
     line-height:1;
@@ -168,7 +147,6 @@ strong {
 section {
     padding:15px 20px;
     font-size:15px;
-    border-top:1px solid #fff;
     background: linear_gradient(#fafafa, #DEDEDE 700px);
     border-radius: 0 0 8px 8px;
     position:relative;
