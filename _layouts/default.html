@@ -12,11 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     </head>
     <body>
-        <div class="wrapper">
-            <header {% unless site.description or site.githubproject_tagline %}
-                    class="without-description" {%endunless %}>
-                <h1> {{site.title | default: site.github.repository_name}}</h1>
-                <p> {{page.description | default:site.description}}</p>
+        <aside class="menu">
                 <ul>
                     {% for item in site.nav %}
                         {% if page.url == item.link %}
@@ -34,13 +30,12 @@
                         {% endif %}
                     {% endfor %}
                 </ul>
-            </header>
-            <section>
-                {{content}}
-            </section>
-
-        </div>
-
+        </aside>
+        <main>
+            <div class="content">
+                    {{content}}
+            </div>
+        </main>
     <footer>
         <p>我的邮箱：{{site.email}}</p>
         <p>更了解我：{{site.wechat_offical}}</p>
